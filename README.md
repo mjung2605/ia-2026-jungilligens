@@ -191,4 +191,7 @@ flowchart TB
   style A fill:#F4F8FF
   style C fill:#F4F8FF
   style D fill:#F4F8FF
+
+  classDef PT stroke-width:3px
+  class M,W,AM,UM,AB,HW,NW,MB,MR,MRA,OAF,PA,U,Z,WG,WGELD,MZ,LZ,WBS,GW,SL,ZWS,ST,SE,HST,HH,AT,EB,STA,AE,ABH PT
 ```
