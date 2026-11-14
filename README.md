@@ -187,8 +187,8 @@ flowchart TB
   ABH <-->|RT| AT
   EB <-->|RT| PA
   EB <-->|RT| STA
-  style A fill:#D0E3FF
-  style C fill:#D0E3FF
-  style D fill:#D0E3FF
+  style A fill:#EAF2FF
+  style C fill:#EAF2FF
+  style D fill:#EAF2FF
 
 ```
