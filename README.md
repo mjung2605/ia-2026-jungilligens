@@ -1,25 +1,25 @@
+
 ## Thesaurus für ausgewählte Online-Dienste der Stadt Bonn
 
 ```mermaid
-
 flowchart TB
 
   subgraph A["Meldewesen"]
-    M["<u>Meldewesen</u>"]
-    W["<u>Wohnsitz</u>"]
-    AM["<u>Anmeldung nach dem Meldegesetz</u>"]
-    UM["<u>Ummeldung nach dem Meldegesetz</u>"]
-    AB["<u>Abmeldung nach dem Meldegesetz</u>"]
-    HW["<u>Hauptwohnsitz</u>"]
-    NW["<u>Nebenwohnsitz</u>"]
-    MB["<u>Meldebescheinigung</u>"]
-    MR["<u>Melderegister</u>"]
-    MRA["<u>Melderegisterauskunft</u>"]
-    OAF["<u>Online-Ausweisfunktion</u>"]
-    PA["<u>Personalausweis</u>"]
-    U["<u>Umzug</u>"]
-    Z["<u>Zuzug</u>"]
-    WG["<u>Wegzug</u>"]
+    M["`**Meldewesen**`"]
+    W["`**Wohnsitz**`"]
+    AM["`**Anmeldung nach dem Meldegesetz**`"]
+    UM["`**Ummeldung nach dem Meldegesetz**`"]
+    AB["`**Abmeldung nach dem Meldegesetz**`"]
+    HW["`**Hauptwohnsitz**`"]
+    NW["`**Nebenwohnsitz**`"]
+    MB["`**Meldebescheinigung**`"]
+    MR["`**Melderegister**`"]
+    MRA["`**Melderegisterauskunft**`"]
+    OAF["`**Online-Ausweisfunktion**`"]
+    PA["`**Personalausweis**`"]
+    U["`**Umzug**`"]
+    Z["`**Zuzug**`"]
+    WG["`**Wegzug**`"]
 
     WA["Wohnsitz anmelden"]
     WoA["Wohnung anmelden"]
@@ -53,17 +53,17 @@ flowchart TB
   end
 
   subgraph C["Eigentum und Unterstützung"]
-    WGELD["<u>Wohngeld</u>"]
-    MZ["<u>Mietzuschuss</u>"]
-    LZ["<u>Lastenzuschuss</u>"]
-    WBS["<u>Wohnberechtigungsschein</u>"]
-    GW["<u>Geförderte Wohnung</u>"]
-    SL["<u>Sozialleistungen</u>"]
-    ZWS["<u>Zweitwohnungssteuer</u>"]
-    ST["<u>Steuer</u>"]
-    SE["<u>Steuerermäßigung</u>"]
-    HST["<u>Hundesteuer</u>"]
-    HH["<u>Hundehaltung</u>"]
+    WGELD["`**Wohngeld**`"]
+    MZ["`**Mietzuschuss**`"]
+    LZ["`**Lastenzuschuss**`"]
+    WBS["`**Wohnberechtigungsschein**`"]
+    GW["`**Geförderte Wohnung**`"]
+    SL["`**Sozialleistungen**`"]
+    ZWS["`**Zweitwohnungssteuer**`"]
+    ST["`**Steuer**`"]
+    SE["`**Steuerermäßigung**`"]
+    HST["`**Hundesteuer**`"]
+    HH["`**Hundehaltung**`"]
 
     WBS1["WBS"]
     WBS2["Sozialwohnungsschein"]
@@ -76,11 +76,11 @@ flowchart TB
   end
 
   subgraph D["Aufenthalt und Einbürgerung"]
-    AT["<u>Aufenthaltstitel</u>"]
-    EB["<u>Einbürgerung</u>"]
-    STA["<u>Staatsangehörigkeit</u>"]
-    AE["<u>Arbeitserlaubnis</u>"]
-    ABH["<u>Ausländerbehörde</u>"]
+    AT["`**Aufenthaltstitel**`"]
+    EB["`**Einbürgerung**`"]
+    STA["`**Staatsangehörigkeit**`"]
+    AE["`**Arbeitserlaubnis**`"]
+    ABH["`**Ausländerbehörde**`"]
 
     AG["Aufenthaltsgenehmigung"]
     AT1["Aufenthaltserlaubnis"]
@@ -187,8 +187,8 @@ flowchart TB
   ABH <-->|RT| AT
   EB <-->|RT| PA
   EB <-->|RT| STA
+
   style A fill:#F4F8FF
   style C fill:#F4F8FF
   style D fill:#F4F8FF
-
 ```
