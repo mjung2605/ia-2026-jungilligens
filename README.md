@@ -3,10 +3,155 @@
 ## Aufgabe 3.2: Artefakte des Card Sortings
 
 ### Liste der 60 einzusortierenden Begriffe
-todo
+|||||||
+|---|---|---|---|---|---|
+| World Conference Center Bonn | Politisches Bonn und Weg der Demokratie | Die Vereinten Nationen in Bonn | Bonn international | Hotels und Unterkünfte | Anreise nach Bonn |
+| Bilder aus Bonn | Beherbergungssteuer | Wandern | Einkaufen und Gastronomie | Radtouren und Radrouten | Stadttouren und Rundgänge |
+| Ausflüge | Routenvorschläge und Schiffstouren | Tagestipps und Stadtrallye Bonn | Bonn-Information und Gästeservice | Beethoven-Denkmäler | Bonn von oben |
+| Stadtmuseum | Geführte und individuelle Touren | Parks und Gärten | Pützchens Markt | Historische Bauwerke und Sehenswürdigkeiten | Kirschblüte |
+| Historische Friedhöfe und Kirchen | Kunst im öffentlichen Raum und Street Art | Grillplätze und Hundewiesen | Sportveranstaltungen | Telekom Beethoven-Competition | Beueler Weiberfastnacht |
+| Veranstaltungen | Rosenmontagszug | Märkte und Messen | Beethovenfest | Theater und Bühnen | Jugendtheater und Theaterfestivals |
+| Karneval | Konzerte und Musikfestivals | Martinszüge und Weihnachtsmärkte | Beethovenstiftung | Beethoven-Orchester Bonn | Beethovenhalle Bonn |
+| Beethoven – Leben und Werk | Beethoven-Haus | Museen und Ausstellungshäuser | Kulturförderung und Kulturstrategie | Tanz | Kunst- und Literaturpreise |
+| Spuren der Römer | Kulturelle Bildung | Geschichte des Bonner Karnevals | Comedy und Kabarett | Kunstmuseum Bonn | Forum Exilkultur |
+| Film und Video | Universität und Wissenschaft | Sport und Sportstätten | Sportförderung und Sportentwicklungsplan | Sportvereine und Vereine | Schwimmbäder |
 
-### Tabellarische Übersicht über die Ergebnisse
-todo
+
+### Grafische Übersicht der Sortierung der Teilnehmer
+
+Teilnehmer 1:
+
+```mermaid
+flowchart LR
+    A["Sport/Bewegung<br/><br/>Sportveranstaltungen<br/>Schwimmbäder<br/>Sport und Sportstätten<br/>Wandern<br/>Sportvereine und Vereine<br/>Parks und Gärten<br/>Radtouren und Radrouten<br/>Ausflüge<br/>Sportförderung und Sportentwicklungsplan"]
+    B["Beethoven<br/><br/>Beethoven-Orchester Bonn<br/>Beethoven – Leben und Werk<br/>Beethoven-Denkmäler<br/>Telekom Beethoven-Competition<br/>Beethoven-Haus<br/>Beethovenfest<br/>Beethovenhalle Bonn<br/>Beethovenstiftung"]
+    C["Shopping<br/><br/>Pützchens Markt<br/>Einkaufen und Gastronomie<br/>Märkte und Messen"]
+    D["Reise nach Bonn<br/><br/>Hotels und Unterkünfte<br/>Anreise nach Bonn<br/>Bonn-Information und Gästeservice<br/>Beherbergungssteuer"]
+    E["Bonn entdecken<br/><br/>Stadttouren und Rundgänge<br/>Bonn von oben<br/>Bonn international<br/>Geführte und individuelle Touren<br/>Tagestipps und Stadtrallye Bonn<br/>Routenvorschläge und Schiffstouren<br/>Grillplätze und Hundewiesen<br/>Kirschblüte<br/>Bilder aus Bonn"]
+    F["Kultur & Geschichte<br/><br/>Tanz<br/>Konzerte und Musikfestivals<br/>Jugendtheater und Theaterfestivals<br/>Museen und Ausstellungshäuser<br/>Martinszüge und Weihnachtsmärkte<br/>Geschichte des Bonner Karnevals<br/>Rosenmontagszug<br/>Kulturförderung und Kulturstrategie<br/>Veranstaltungen<br/>Kunstmuseum Bonn<br/>Spuren der Römer<br/>Kulturelle Bildung<br/>Kunst- und Literaturpreise<br/>Kunst im öffentlichen Raum und Street Art<br/>Film und Video<br/>Comedy und Kabarett<br/>Forum Exilkultur<br/>Karneval<br/>Stadtmuseum<br/>Beueler Weiberfastnacht<br/>Theater und Bühnen<br/>Historische Bauwerke und Sehenswürdigkeiten<br/>Historische Friedhöfe und Kirchen"]
+    G["Politik & Forschung<br/><br/>Die Vereinten Nationen in Bonn<br/>World Conference Center Bonn<br/>Politisches Bonn und Weg der Demokratie<br/>Universität und Wissenschaft"]
+
+    A ~~~ B ~~~ C ~~~ D ~~~ E ~~~ F ~~~ G
+
+    style A fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+    style B fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+    style C fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+    style D fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+    style E fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+    style F fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+    style G fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+    linkStyle default stroke:transparent,fill:none
+```
+
+
+Teilnehmer 2:
+
+```mermaid
+flowchart LR
+    A["Unterhaltung<br/><br/>Konzerte und Musikfestivals<br/>Comedy und Kabarett<br/>Film und Video<br/>Beethoven-Orchester Bonn"]
+    B["Kultur<br/><br/>Beethovenstiftung<br/>Beethoven – Leben und Werk<br/>Beethoven-Haus<br/>Kulturelle Bildung<br/>Beethovenhalle Bonn<br/>Theater und Bühnen<br/>Telekom Beethoven-Competition<br/>Kunst- und Literaturpreise<br/>Kulturförderung und Kulturstrategie<br/>Kunst im öffentlichen Raum und Street Art<br/>Jugendtheater und Theaterfestivals"]
+    C["Sport & Freizeit<br/><br/>Radtouren und Radrouten<br/>Ausflüge<br/>Grillplätze und Hundewiesen<br/>Tanz<br/>Sportveranstaltungen<br/>Sport und Sportstätten<br/>Sportvereine und Vereine<br/>Schwimmbäder<br/>Sportförderung und Sportentwicklungsplan"]
+    D["Lokales<br/><br/>Bonn von oben<br/>Bilder aus Bonn<br/>Universität und Wissenschaft<br/>Forum Exilkultur"]
+    E["Politisches & Rechtliches<br/><br/>Politisches Bonn und Weg der Demokratie<br/>Beherbergungssteuer<br/>Die Vereinten Nationen in Bonn<br/>Bonn international<br/>World Conference Center Bonn"]
+    F["Natur<br/><br/>Parks und Gärten<br/>Kirschblüte"]
+    G["Historisches<br/><br/>Geschichte des Bonner Karnevals<br/>Historische Friedhöfe und Kirchen<br/>Beethoven-Denkmäler<br/>Spuren der Römer<br/>Historische Bauwerke und Sehenswürdigkeiten"]
+    H["Tourismus<br/><br/>Einkaufen und Gastronomie<br/>Routenvorschläge und Schiffstouren<br/>Hotels und Unterkünfte<br/>Geführte und individuelle Touren<br/>Anreise nach Bonn<br/>Stadttouren und Rundgänge<br/>Wandern<br/>Tagestipps und Stadtrallye Bonn<br/>Bonn-Information und Gästeservice<br/>Museen und Ausstellungshäuser<br/>Stadtmuseum<br/>Kunstmuseum Bonn"]
+    I["Veranstaltungen<br/><br/>Pützchens Markt<br/>Martinszüge und Weihnachtsmärkte<br/>Märkte und Messen<br/>Karneval<br/>Rosenmontagszug<br/>Beueler Weiberfastnacht<br/>Veranstaltungen<br/>Beethovenfest"]
+
+    A ~~~ B ~~~ C ~~~ D ~~~ E ~~~ F ~~~ G ~~~ H ~~~ I
+
+    style A fill:#dcfce7,stroke:#16a34a,color:#14532d
+    style B fill:#dcfce7,stroke:#16a34a,color:#14532d
+    style C fill:#dcfce7,stroke:#16a34a,color:#14532d
+    style D fill:#dcfce7,stroke:#16a34a,color:#14532d
+    style E fill:#dcfce7,stroke:#16a34a,color:#14532d
+    style F fill:#dcfce7,stroke:#16a34a,color:#14532d
+    style G fill:#dcfce7,stroke:#16a34a,color:#14532d
+    style H fill:#dcfce7,stroke:#16a34a,color:#14532d
+    style I fill:#dcfce7,stroke:#16a34a,color:#14532d
+    linkStyle default stroke:transparent,fill:none
+```
+
+Teilnehmer 3:
+
+```mermaid
+flowchart LR
+    A["Geschichte<br/><br/>Spuren der Römer<br/>Geschichte des Bonner Karnevals"]
+    B["Kunst und Kultur<br/><br/>Kunst im öffentlichen Raum und Street Art<br/>Kunst- und Literaturpreise<br/>Kulturförderung und Kulturstrategie<br/>Comedy und Kabarett<br/>Tanz<br/>Beethoven – Leben und Werk<br/>Kirschblüte"]
+    C["Bildung und Foren<br/><br/>Kulturelle Bildung<br/>Universität und Wissenschaft<br/>Film und Video<br/>Forum Exilkultur<br/>Beethovenstiftung"]
+    D["Events<br/><br/>Jugendtheater und Theaterfestivals<br/>Konzerte und Musikfestivals<br/>Telekom Beethoven-Competition<br/>Beethovenfest<br/>Veranstaltungen<br/>Rosenmontagszug<br/>Beueler Weiberfastnacht<br/>Sportveranstaltungen<br/>Karneval<br/>Martinszüge und Weihnachtsmärkte"]
+    E["Locations<br/><br/>Beethovenhalle Bonn<br/>World Conference Center Bonn<br/>Beethoven-Orchester Bonn<br/>Beethoven-Haus<br/>Theater und Bühnen<br/>Kunstmuseum Bonn"]
+    F["Städtisches<br/><br/>Die Vereinten Nationen in Bonn<br/>Bonn international<br/>Sportförderung und Sportentwicklungsplan<br/>Politisches Bonn und Weg der Demokratie<br/>Bonn von oben<br/>Bilder aus Bonn<br/>Einkaufen und Gastronomie"]
+    G["Museen<br/><br/>Museen und Ausstellungshäuser<br/>Stadtmuseum"]
+    H["Historische Bauwerke & Denkmäler<br/><br/>Beethoven-Denkmäler<br/>Historische Friedhöfe und Kirchen<br/>Historische Bauwerke und Sehenswürdigkeiten"]
+    I["Tourismus - Anfahrt und Unterkunft<br/><br/>Hotels und Unterkünfte<br/>Anreise nach Bonn"]
+    J["Tourismus - Allgemein<br/><br/>Bonn-Information und Gästeservice<br/>Beherbergungssteuer"]
+    K["Freizeitangebote<br/><br/>Sportvereine und Vereine<br/>Wandern<br/>Grillplätze und Hundewiesen<br/>Radtouren und Radrouten<br/>Routenvorschläge und Schiffstouren<br/>Geführte und individuelle Touren<br/>Ausflüge<br/>Tagestipps und Stadtrallye Bonn<br/>Parks und Gärten<br/>Schwimmbäder<br/>Sport und Sportstätten<br/>Stadttouren und Rundgänge<br/>Märkte und Messen<br/>Pützchens Markt"]
+
+    A ~~~ B ~~~ C ~~~ D ~~~ E ~~~ F ~~~ G ~~~ H ~~~ I ~~~ J ~~~ K
+
+    style A fill:#fce7f3,stroke:#db2777,color:#831843
+    style B fill:#fce7f3,stroke:#db2777,color:#831843
+    style C fill:#fce7f3,stroke:#db2777,color:#831843
+    style D fill:#fce7f3,stroke:#db2777,color:#831843
+    style E fill:#fce7f3,stroke:#db2777,color:#831843
+    style F fill:#fce7f3,stroke:#db2777,color:#831843
+    style G fill:#fce7f3,stroke:#db2777,color:#831843
+    style H fill:#fce7f3,stroke:#db2777,color:#831843
+    style I fill:#fce7f3,stroke:#db2777,color:#831843
+    style J fill:#fce7f3,stroke:#db2777,color:#831843
+    style K fill:#fce7f3,stroke:#db2777,color:#831843
+    linkStyle default stroke:transparent,fill:none
+```
+
+Teilnehmer 4:
+
+```mermaid
+flowchart LR
+    A["Beethoven<br/><br/>Telekom Beethoven-Competition<br/>Beethovenstiftung<br/>Beethoven – Leben und Werk<br/>Beethoven-Haus<br/>Beethoven-Orchester Bonn<br/>Beethoven-Denkmäler<br/>Beethovenhalle Bonn<br/>Beethovenfest"]
+    B["Karneval<br/><br/>Karneval<br/>Geschichte des Bonner Karnevals<br/>Rosenmontagszug<br/>Beueler Weiberfastnacht"]
+    C["Sport/Aktivitäten<br/><br/>Sportveranstaltungen<br/>Tanz<br/>Sportvereine und Vereine<br/>Radtouren und Radrouten<br/>Schwimmbäder<br/>Sportförderung und Sportentwicklungsplan<br/>Wandern<br/>Sport und Sportstätten<br/>Geführte und individuelle Touren"]
+    D["Kunst/Kultur<br/><br/>Theater und Bühnen<br/>Jugendtheater und Theaterfestivals<br/>Kunst im öffentlichen Raum und Street Art<br/>Kunst- und Literaturpreise<br/>Kunstmuseum Bonn<br/>Stadtmuseum<br/>Comedy und Kabarett<br/>Konzerte und Musikfestivals<br/>Museen und Ausstellungshäuser<br/>Kulturförderung und Kulturstrategie<br/>Kulturelle Bildung<br/>Bilder aus Bonn<br/>Kirschblüte<br/>Film und Video"]
+    E["Geschichte<br/><br/>Historische Bauwerke und Sehenswürdigkeiten<br/>Die Vereinten Nationen in Bonn<br/>Politisches Bonn und Weg der Demokratie<br/>Historische Friedhöfe und Kirchen<br/>World Conference Center Bonn<br/>Spuren der Römer<br/>Forum Exilkultur<br/>Bonn international"]
+    F["Umgebung<br/><br/>Parks und Gärten<br/>Grillplätze und Hundewiesen<br/>Universität und Wissenschaft<br/>Tagestipps und Stadtrallye Bonn<br/>Routenvorschläge und Schiffstouren<br/>Pützchens Markt<br/>Einkaufen und Gastronomie<br/>Hotels und Unterkünfte<br/>Ausflüge<br/>Märkte und Messen<br/>Stadttouren und Rundgänge<br/>Martinszüge und Weihnachtsmärkte<br/>Veranstaltungen<br/>Bonn von oben"]
+    G["Good to know<br/><br/>Beherbergungssteuer<br/>Anreise nach Bonn<br/>Bonn-Information und Gästeservice"]
+
+    A ~~~ B ~~~ C ~~~ D ~~~ E ~~~ F ~~~ G
+
+    style A fill:#ffedd5,stroke:#ea580c,color:#7c2d12
+    style B fill:#ffedd5,stroke:#ea580c,color:#7c2d12
+    style C fill:#ffedd5,stroke:#ea580c,color:#7c2d12
+    style D fill:#ffedd5,stroke:#ea580c,color:#7c2d12
+    style E fill:#ffedd5,stroke:#ea580c,color:#7c2d12
+    style F fill:#ffedd5,stroke:#ea580c,color:#7c2d12
+    style G fill:#ffedd5,stroke:#ea580c,color:#7c2d12
+    linkStyle default stroke:transparent,fill:none
+```
+
+Teilnehmer 5:
+
+```mermaid
+flowchart LR
+    A["Politik<br/><br/>World Conference Center Bonn<br/>Politisches Bonn und Weg der Demokratie<br/>Die Vereinten Nationen in Bonn<br/>Bonn international"]
+    B["Reisen<br/><br/>Hotels und Unterkünfte<br/>Anreise nach Bonn<br/>Bilder aus Bonn<br/>Beherbergungssteuer<br/>Wandern<br/>Einkaufen und Gastronomie<br/>Radtouren und Radrouten<br/>Stadttouren und Rundgänge<br/>Ausflüge<br/>Routenvorschläge und Schiffstouren<br/>Tagestipps und Stadtrallye Bonn<br/>Bonn-Information und Gästeservice"]
+    C["Sehenswürdigkeiten<br/><br/>Beethoven-Denkmäler<br/>Bonn von oben<br/>Stadtmuseum<br/>Geführte und individuelle Touren<br/>Parks und Gärten<br/>Pützchens Markt<br/>Historische Bauwerke und Sehenswürdigkeiten<br/>Kirschblüte<br/>Historische Friedhöfe und Kirchen<br/>Kunst im öffentlichen Raum und Street Art<br/>Grillplätze und Hundewiesen"]
+    D["Veranstaltungen<br/><br/>Sportveranstaltungen<br/>Telekom Beethoven-Competition<br/>Beueler Weiberfastnacht<br/>Veranstaltungen<br/>Rosenmontagszug<br/>Märkte und Messen<br/>Beethovenfest<br/>Theater und Bühnen<br/>Jugendtheater und Theaterfestivals<br/>Karneval<br/>Konzerte und Musikfestivals<br/>Martinszüge und Weihnachtsmärkte"]
+    E["Bethoven<br/><br/>Beethovenstiftung<br/>Beethoven-Orchester Bonn<br/>Beethovenhalle Bonn<br/>Beethoven – Leben und Werk<br/>Beethoven-Haus"]
+    F["Kunst und Kultur<br/><br/>Museen und Ausstellungshäuser<br/>Kulturförderung und Kulturstrategie<br/>Tanz<br/>Kunst- und Literaturpreise<br/>Spuren der Römer<br/>Kulturelle Bildung<br/>Geschichte des Bonner Karnevals<br/>Comedy und Kabarett<br/>Kunstmuseum Bonn<br/>Forum Exilkultur<br/>Film und Video"]
+    G["Bildung und Sport<br/><br/>Universität und Wissenschaft<br/>Sport und Sportstätten<br/>Sportförderung und Sportentwicklungsplan<br/>Sportvereine und Vereine<br/>Schwimmbäder"]
+
+    A ~~~ B ~~~ C ~~~ D ~~~ E ~~~ F ~~~ G
+
+    style A fill:#ede9fe,stroke:#7c3aed,color:#4c1d95
+    style B fill:#ede9fe,stroke:#7c3aed,color:#4c1d95
+    style C fill:#ede9fe,stroke:#7c3aed,color:#4c1d95
+    style D fill:#ede9fe,stroke:#7c3aed,color:#4c1d95
+    style E fill:#ede9fe,stroke:#7c3aed,color:#4c1d95
+    style F fill:#ede9fe,stroke:#7c3aed,color:#4c1d95
+    style G fill:#ede9fe,stroke:#7c3aed,color:#4c1d95
+    linkStyle default stroke:transparent,fill:none
+```
+
 
 Die Kategorien wurden für die Auswerdung teilweise verschmolzen/zusammengefasst, um leicht unterschiedliche Benennungen auszugleichen:
 
@@ -18,80 +163,15 @@ Die Kategorien wurden für die Auswerdung teilweise verschmolzen/zusammengefasst
 
 - Veranstaltungen = Events + Veranstaltungen
 
-Anmerkung zu den Teilnehmern: Auf Nachfrage wussten nur P1 + P4 von der Relevanz von Beethoven in Bonn (Geburtsstätte, etc.), was die eigene Kategorie erklärt (ist auf der Seite www.bonn.de auch so umgesetzt)
 
-### Grafische Übersicht der Sortierung der Teilnehmer
+### Tabellarische Übersicht über die Bemerkungen der Teilnehmer
 
-```mermaid
+|  | Teilnehmer 1 | Teilnehmer 2 | Teilnehmer 3 | Teilnehmer 4 | Teilnehmer 5 |
+|---|---|---|---|---|---|
+| **Freitext-Feedback des Teilnehmers (zusammengefasst)** | Zu Beethoven: „Zu hohe Anzahl an spezifischen Begriffen, um die auch in 'Kultur' zu stecken, deswegen ganz eigene Kategorie.“ | Allgemein: „Das Zusammenfassen der Themen war schwierig aber nötig, damit einzelne Gruppen nicht zu klein werden (z. B. Forschung).“<br><br>Zu Museen/Kunst in der „Tourismus“-Kategorie vs. „Kultur“-Kategorie: „Als Tourist suchst du vielleicht eher nach konkreten Museen, die du dir angucken kannst und nicht nach allgemeinen Kultur-Infos.“ | Allgemein: „Mein Ansatz war: 'Wer schaut gerade da drauf und was hilft der Person dabei?', und somit sind z. B. alle Freizeit-Sachen beisammen und nicht unter Tourismus Touren und Parks dann unter was anderem, denn wenn man Freizeit hat, als Besucher oder als Anwohner, sucht man das gleiche.“<br><br>Zu Beethoven: „Es gab viele Beethoven-Begriffe, deswegen habe ich das zu einer eigenen Kategorie gemacht.“ | Zu Umgebung: „Kategorie nach dem Motto 'Was es in Bonn gibt'; Schwimmbäder hätte ich auch da rein machen können, aber das passt halt eher zu Sport, weil es keine 'wichtige Location' ist, sondern etwas, wo du für eine Aktivität hingehst, und was wahrscheinlich jede Stadt hat. Und sonst wäre Umgebung zu groß geworden.“<br><br>Zu „Good to know“: „Das ist für Anwohner eher nicht so wichtig.“<br><br>Zu Geschichte: „Kann man ggf. unter Geschichte und Politik zusammenfassen.“ | Allgemein: „Bei einigen Begriffen war es schwer, sie eindeutig zuzuordnen. Kirschblüten fand ich schwer.“<br><br>Allgemein: „Recht einfache Einteilung in Reisen, Politik, Kunst und Kultur, Sehenswürdigkeiten und Veranstaltungen. Weil es so viel davon gibt, habe ich die Beethoven-Sachen in eine eigene Kategorie getan.“<br><br>Zu Bildung und Sport: „Ich bin nicht zufrieden mit der Kategorie, aber ich wusste nicht, wo ich Schwimmen und Wissenschaft sonst unterbringen sollte.“ |
+| **Eigene Anmerkungen** | Stark zusammengefasst, aber „Kultur & Geschichte“ sehr groß. | „Natur“ sehr kleine Kategorie, eher aufteilen. | TN mit den meisten Kategorien; thematische Überschneidung zwischen Kunst und Kultur + Museen sowie den beiden Tourismus-Kategorien. | Aufteilen der Kategorie „Bildung und Sport“. | „Locations“ einzige nicht-themenbezogene Kategorie; Inhalte wären auch in Themen wie „Kunst und Kultur“ einsortierbar.<br><br>„Good to know“ – ungenaue Benennung, entspricht von Begriffen her „Tourismus“-Kategorie. |
 
-flowchart TB
 
-  subgraph P1["Teilnehmer P1"]
-    direction TB
-    P1_G1["Sport/Bewegung (9)<br/>Sportveranstaltungen<br/>Schwimmbäder<br/>Sport und Sportstätten<br/>Wandern<br/>Sportvereine und Vereine<br/>Parks und Gärten<br/>Radtouren und Radrouten<br/>Ausflüge<br/>Sportförderung und Sportentwicklungsplan"]
-    P1_G2["Beethoven (8)<br/>Beethoven-Orchester Bonn<br/>Beethoven – Leben und Werk<br/>Beethoven-Denkmäler<br/>Telekom Beethoven-Competition<br/>Beethoven-Haus<br/>Beethovenfest<br/>Beethovenhalle Bonn<br/>Beethovenstiftung"]
-    P1_G3["Shopping (3)<br/>Pützchens Markt<br/>Einkaufen und Gastronomie<br/>Märkte und Messen"]
-    P1_G4["Reise nach Bonn (4)<br/>Hotels und Unterkünfte<br/>Anreise nach Bonn<br/>Bonn-Information und Gästeservice<br/>Beherbergungssteuer"]
-    P1_G5["Bonn entdecken (9)<br/>Stadttouren und Rundgänge<br/>Bonn von oben<br/>Bonn international<br/>Geführte und individuelle Touren<br/>Tagestipps und Stadtrallye Bonn<br/>Routenvorschläge und Schiffstouren<br/>Grillplätze und Hundewiesen<br/>Kirschblüte<br/>Bilder aus Bonn"]
-    P1_G6["Kultur &amp; Geschichte (23)<br/>Tanz<br/>Konzerte und Musikfestivals<br/>Jugendtheater und Theaterfestivals<br/>Museen und Ausstellungshäuser<br/>Martinszüge und Weihnachtsmärkte<br/>Geschichte des Bonner Karnevals<br/>Rosenmontagszug<br/>Kulturförderung und Kulturstrategie<br/>Veranstaltungen<br/>Kunstmuseum Bonn<br/>Spuren der Römer<br/>Kulturelle Bildung<br/>Kunst- und Literaturpreise<br/>Kunst im öffentlichen Raum und Street Art<br/>Film und Video<br/>Comedy und Kabarett<br/>Forum Exilkultur<br/>Karneval<br/>Stadtmuseum<br/>Beueler Weiberfastnacht<br/>Theater und Bühnen<br/>Historische Bauwerke und Sehenswürdigkeiten<br/>Historische Friedhöfe und Kirchen"]
-    P1_G7["Politik &amp; Forschung (4)<br/>Die Vereinten Nationen in Bonn<br/>World Conference Center Bonn<br/>Politisches Bonn und Weg der Demokratie<br/>Universität und Wissenschaft"]
-  end
-
-  subgraph P2["Teilnehmer P2"]
-    direction TB
-    P2_G1["Unterhaltung (4)<br/>Konzerte und Musikfestivals<br/>Comedy und Kabarett<br/>Film und Video<br/>Beethoven-Orchester Bonn"]
-    P2_G2["Kultur (11)<br/>Beethovenstiftung<br/>Beethoven – Leben und Werk<br/>Beethoven-Haus<br/>Kulturelle Bildung<br/>Beethovenhalle Bonn<br/>Theater und Bühnen<br/>Telekom Beethoven-Competition<br/>Kunst- und Literaturpreise<br/>Kulturförderung und Kulturstrategie<br/>Kunst im öffentlichen Raum und Street Art<br/>Jugendtheater und Theaterfestivals"]
-    P2_G3["Sport &amp; Freizeit (9)<br/>Radtouren und Radrouten<br/>Ausflüge<br/>Grillplätze und Hundewiesen<br/>Tanz<br/>Sportveranstaltungen<br/>Sport und Sportstätten<br/>Sportvereine und Vereine<br/>Schwimmbäder<br/>Sportförderung und Sportentwicklungsplan"]
-    P2_G4["Lokales (4)<br/>Bonn von oben<br/>Bilder aus Bonn<br/>Universität und Wissenschaft<br/>Forum Exilkultur"]
-    P2_G5["Politisches &amp; Rechtliches (5)<br/>Politisches Bonn und Weg der Demokratie<br/>Beherbergungssteuer<br/>Die Vereinten Nationen in Bonn<br/>Bonn international<br/>World Conference Center Bonn"]
-    P2_G6["Natur (2)<br/>Parks und Gärten<br/>Kirschblüte"]
-    P2_G7["Historisches (5)<br/>Geschichte des Bonner Karnevals<br/>Historische Friedhöfe und Kirchen<br/>Beethoven-Denkmäler<br/>Spuren der Römer<br/>Historische Bauwerke und Sehenswürdigkeiten"]
-    P2_G8["Tourismus (12)<br/>Einkaufen und Gastronomie<br/>Routenvorschläge und Schiffstouren<br/>Hotels und Unterkünfte<br/>Geführte und individuelle Touren<br/>Anreise nach Bonn<br/>Stadttouren und Rundgänge<br/>Wandern<br/>Tagestipps und Stadtrallye Bonn<br/>Bonn-Information und Gästeservice<br/>Museen und Ausstellungshäuser<br/>Stadtmuseum<br/>Kunstmuseum Bonn"]
-    P2_G9["Veranstaltungen (8)<br/>Pützchens Markt<br/>Martinszüge und Weihnachtsmärkte<br/>Märkte und Messen<br/>Karneval<br/>Rosenmontagszug<br/>Beueler Weiberfastnacht<br/>Veranstaltungen<br/>Beethovenfest"]
-  end
-
-  subgraph P3["Teilnehmer P3"]
-    direction TB
-    P3_G1["Geschichte (2)<br/>Spuren der Römer<br/>Geschichte des Bonner Karnevals"]
-    P3_G2["Kunst und Kultur (7)<br/>Kunst im öffentlichen Raum und Street Art<br/>Kunst- und Literaturpreise<br/>Kulturförderung und Kulturstrategie<br/>Comedy und Kabarett<br/>Tanz<br/>Beethoven – Leben und Werk<br/>Kirschblüte"]
-    P3_G3["Bildung und Foren (5)<br/>Kulturelle Bildung<br/>Universität und Wissenschaft<br/>Film und Video<br/>Forum Exilkultur<br/>Beethovenstiftung"]
-    P3_G4["Events (10)<br/>Jugendtheater und Theaterfestivals<br/>Konzerte und Musikfestivals<br/>Telekom Beethoven-Competition<br/>Beethovenfest<br/>Veranstaltungen<br/>Rosenmontagszug<br/>Beueler Weiberfastnacht<br/>Sportveranstaltungen<br/>Karneval<br/>Martinszüge und Weihnachtsmärkte"]
-    P3_G5["Locations (6)<br/>Beethovenhalle Bonn<br/>World Conference Center Bonn<br/>Beethoven-Orchester Bonn<br/>Beethoven-Haus<br/>Theater und Bühnen<br/>Kunstmuseum Bonn"]
-    P3_G6["Städtisches (7)<br/>Die Vereinten Nationen in Bonn<br/>Bonn international<br/>Sportförderung und Sportentwicklungsplan<br/>Politisches Bonn und Weg der Demokratie<br/>Bonn von oben<br/>Bilder aus Bonn<br/>Einkaufen und Gastronomie"]
-    P3_G7["Museen (2)<br/>Museen und Ausstellungshäuser<br/>Stadtmuseum"]
-    P3_G8["Historische Bauwerke &amp;Denkmäler (3)<br/>Beethoven-Denkmäler<br/>Historische Friedhöfe und Kirchen<br/>Historische Bauwerke und Sehenswürdigkeiten"]
-    P3_G9["Tourismus - Anfahrt und Unterkunft (2)<br/>Hotels und Unterkünfte<br/>Anreise nach Bonn"]
-    P3_G10["Tourismus - Allgemein (2)<br/>Bonn-Information und Gästeservice<br/>Beherbergungssteuer"]
-    P3_G11["Freizeitangebote (14)<br/>Sportvereine und Vereine<br/>Wandern<br/>Grillplätze und Hundewiesen<br/>Radtouren und Radrouten<br/>Routenvorschläge und Schiffstouren<br/>Geführte und individuelle Touren<br/>Ausflüge<br/>Tagestipps und Stadtrallye Bonn<br/>Parks und Gärten<br/>Schwimmbäder<br/>Sport und Sportstätten<br/>Stadttouren und Rundgänge<br/>Märkte und Messen<br/>Pützchens Markt"]
-  end
-
-  subgraph P4["Teilnehmer P4"]
-    direction TB
-    P4_G1["Beethoven (8)<br/>Telekom Beethoven-Competition<br/>Beethovenstiftung<br/>Beethoven – Leben und Werk<br/>Beethoven-Haus<br/>Beethoven-Orchester Bonn<br/>Beethoven-Denkmäler<br/>Beethovenhalle Bonn<br/>Beethovenfest"]
-    P4_G2["Karneval (4)<br/>Karneval<br/>Geschichte des Bonner Karnevals<br/>Rosenmontagszug<br/>Beueler Weiberfastnacht"]
-    P4_G3["Sport/Aktivitäten (9)<br/>Sportveranstaltungen<br/>Tanz<br/>Sportvereine und Vereine<br/>Radtouren und Radrouten<br/>Schwimmbäder<br/>Sportförderung und Sportentwicklungsplan<br/>Wandern<br/>Sport und Sportstätten<br/>Geführte und individuelle Touren"]
-    P4_G4["Kunst und Kultur (14)<br/>Theater und Bühnen<br/>Jugendtheater und Theaterfestivals<br/>Kunst im öffentlichen Raum und Street Art<br/>Kunst- und Literaturpreise<br/>Kunstmuseum Bonn<br/>Stadtmuseum<br/>Comedy und Kabarett<br/>Konzerte und Musikfestivals<br/>Museen und Ausstellungshäuser<br/>Kulturförderung und Kulturstrategie<br/>Kulturelle Bildung<br/>Bilder aus Bonn<br/>Kirschblüte<br/>Film und Video"]
-    P4_G5["Geschichte (8)<br/>Historische Bauwerke und Sehenswürdigkeiten<br/>Die Vereinten Nationen in Bonn<br/>Politisches Bonn und Weg der Demokratie<br/>Historische Friedhöfe und Kirchen<br/>World Conference Center Bonn<br/>Spuren der Römer<br/>Forum Exilkultur<br/>Bonn international"]
-    P4_G6["Umgebung (14)<br/>Parks und Gärten<br/>Grillplätze und Hundewiesen<br/>Universität und Wissenschaft<br/>Tagestipps und Stadtrallye Bonn<br/>Routenvorschläge und Schiffstouren<br/>Pützchens Markt<br/>Einkaufen und Gastronomie<br/>Hotels und Unterkünfte<br/>Ausflüge<br/>Märkte und Messen<br/>Stadttouren und Rundgänge<br/>Martinszüge und Weihnachtsmärkte<br/>Veranstaltungen<br/>Bonn von oben"]
-    P4_G7["&quot;Good to know&quot; (3)<br/>Beherbergungssteuer<br/>Anreise nach Bonn<br/>Bonn-Information und Gästeservice"]
-  end
-
-  classDef group1 fill:#E8F0FE,stroke:#6489C6,stroke-width:1.5px,color:#243B5A;
-  classDef group2 fill:#EAF7F0,stroke:#69A88A,stroke-width:1.5px,color:#234B38;
-  classDef group3 fill:#FFF3E5,stroke:#D69A52,stroke-width:1.5px,color:#68451F;
-  classDef group4 fill:#F5ECFA,stroke:#A17AB8,stroke-width:1.5px,color:#503766;
-
-  class P1_G1,P1_G2,P1_G3,P1_G4,P1_G5,P1_G6,P1_G7 group1;
-  class P2_G1,P2_G2,P2_G3,P2_G4,P2_G5,P2_G6,P2_G7,P2_G8,P2_G9 group2;
-  class P3_G1,P3_G2,P3_G3,P3_G4,P3_G5,P3_G6,P3_G7,P3_G8,P3_G9,P3_G10,P3_G11 group3;
-  class P4_G1,P4_G2,P4_G3,P4_G4,P4_G5,P4_G6,P4_G7 group4;
-
-  style P1 fill:#F4F7FC,stroke:#AAB8CC,stroke-width:2px,color:#243B5A
-  style P2 fill:#F2FAF5,stroke:#9BBEAA,stroke-width:2px,color:#234B38
-  style P3 fill:#FFFAF3,stroke:#D8B98F,stroke-width:2px,color:#68451F
-  style P4 fill:#FAF6FC,stroke:#B9A2C8,stroke-width:2px,color:#503766
-
-```
 
 ### Neue Konzipierung der Kategorisierung
 
