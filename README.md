@@ -1,5 +1,30 @@
+# Informationsarchitektur WS26/27: Ablage großer Dateien der EAs
 
-## Thesaurus für ausgewählte Online-Dienste der Stadt Bonn
+## Aufgabe 3.2: Artefakte des Card Sortings
+
+### Liste der 60 einzusortierenden Begriffe
+todo
+
+### Tabellarische Übersicht über die Ergebnisse
+todo
+
+Die Kategorien wurden für die Auswerdung teilweise verschmolzen/zusammengefasst, um leicht unterschiedliche Benennungen auszugleichen:
+
+- Kultur = Kunst und Kultur + Kunst/Kultur + Kultur + Museen
+
+- Tourismus = "Good to know" + Tourismus + Tourismus - Allgemein + Tourismus - Anfahrt und Unterkunft + Reise nach Bonn
+
+- Sport und Freizeit = Sport & Freizeit + Sport/Aktivitäten + Sport/Bewegung + Freizeitangebote
+
+- Veranstaltungen = Events + Veranstaltungen
+
+Anmerkung zu den Teilnehmern: Auf Nachfrage wussten nur P1 + P4 von der Relevanz von Beethoven in Bonn (Geburtsstätte, etc.), was die eigene Kategorie erklärt (ist auf der Seite www.bonn.de auch so umgesetzt)
+
+### Grafische Übersicht der Sortierung der Teilnehmer
+
+todo
+
+## Aufgabe 4: Thesaurus für ausgewählte Online-Dienste der Stadt Bonn
 
 ```mermaid
 flowchart TB
