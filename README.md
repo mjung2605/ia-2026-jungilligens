@@ -183,9 +183,9 @@ flowchart TB
 
     C["Veranstaltungen & Feste<br/><br/>• Beueler Weiberfastnacht<br/>• Geschichte des Bonner Karnevals<br/>• Karneval<br/>• Martinszüge und Weihnachtsmärkte<br/>• Märkte und Messen<br/>• Pützchens Markt<br/>• Rosenmontagszug<br/>• Sportveranstaltungen<br/>• Veranstaltungen"]
 
-    D["Sport & Freizeit<br/><br/>• Ausflüge<br/>• Grillplätze und Hundewiesen<br/>• Parks und Gärten<br/>• Radtouren und Radrouten<br/>• Schwimmbäder<br/>• Sport und Sportstätten<br/>• Sportförderung und Sportentwicklungsplan<br/>• Sportvereine und Vereine<br/>• Wandern"]
+    D["Sport & Freizeit<br/><br/>• Ausflüge<br/>• Grillplätze und Hundewiesen<br/>• Parks und Gärten<br/>• Radtouren und Radrouten<br/>• Schwimmbäder<br/>• Sport und Sportstätten<br/>• Sportförderung und Sportentwicklungsplan<br/>• Sportvereine und Vereine<br/>• Wandern<br/>• Einkaufen und Gastronomie"]
 
-    E["Bonn entdecken & Besuch planen<br/><br/>• Anreise nach Bonn<br/>• Bilder aus Bonn<br/>• Bonn von oben<br/>• Bonn-Information und Gästeservice<br/>• Beherbergungssteuer<br/>• Einkaufen und Gastronomie<br/>• Geführte und individuelle Touren<br/>• Hotels und Unterkünfte<br/>• Kirschblüte<br/>• Routenvorschläge und Schiffstouren<br/>• Stadttouren und Rundgänge<br/>• Tagestipps und Stadtrallye Bonn"]
+    E["Tourismus<br/><br/>• Anreise nach Bonn<br/>• Bilder aus Bonn<br/>• Bonn von oben<br/>• Bonn-Information und Gästeservice<br/>• Beherbergungssteuer<br/>• Geführte und individuelle Touren<br/>• Hotels und Unterkünfte<br/>• Kirschblüte<br/>• Routenvorschläge und Schiffstouren<br/>• Stadttouren und Rundgänge<br/>• Tagestipps und Stadtrallye Bonn"]
 
     F["Geschichte, Politik & Wissen<br/><br/>• Bonn international<br/>• Die Vereinten Nationen in Bonn<br/>• Forum Exilkultur<br/>• Historische Bauwerke und Sehenswürdigkeiten<br/>• Historische Friedhöfe und Kirchen<br/>• Politisches Bonn und Weg der Demokratie<br/>• Spuren der Römer<br/>• Universität und Wissenschaft<br/>• World Conference Center Bonn"]
 
